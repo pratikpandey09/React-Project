@@ -16,7 +16,7 @@ const handleSubmit = async (e) => {
   formData.append("name", name);
   formData.append("email", email);
   formData.append("tel", tel);
-  
+
   try {
     const response = await fetch("http://localhost/reactBackend/submit.php", {
       method: "POST",
@@ -54,7 +54,7 @@ const handleSubmit = async (e) => {
 
                             <div className="flex items-center mt-8 text-white">
                                 <svg
-                                    fill="none"
+                                    fill="none" 
                                     stroke="currentColor"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
