@@ -43,18 +43,19 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <a
+                                    <NavLink
+                                    to="/github"
                                         href="https://github.com/pratikpandey09"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
                                         Github
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
+                                    <Link to="/Contact" className="hover:underline">
+                                        Contact
                                     </Link>
                                 </li>
                             </ul>

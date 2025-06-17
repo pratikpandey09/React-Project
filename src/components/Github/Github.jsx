@@ -17,7 +17,7 @@ function Github() {
 <div className="container flex justify-center h-[500px] bg-[#0A151F]">
       <div className='text-center m-4 bg-gray-300 rounded-2xl  p-4 text-3xl flex flex-col items-center'>
     <img src={data.avatar_url} alt="Git picture" width={300} className='rounded-full'/>
-     <h1 className='leading-20 font-bold '> Github ~ <br /><a href=""> {data.login}</a></h1>
+     <h1 className='leading-20 font-bold '> Github ~ <br /><a className='hover:text-orange-800' href="https://github.com/pratikpandey09"> {data.login}</a></h1>
     </div>
 </div>
   )
