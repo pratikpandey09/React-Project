@@ -44,11 +44,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <NavLink
-                                    to="/github"
-                                        href="https://github.com/pratikpandey09"
-                                        className="hover:underline"
-                                        target="_blank"
-                                        rel="noreferrer"
+                                    to="/Github" className={({isActive}) =>`hover:underline ${isActive ? "text-orange-700" : "text-gray-700"} ` }
                                     >
                                         Github
                                     </NavLink>

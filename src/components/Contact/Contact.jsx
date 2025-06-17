@@ -42,7 +42,7 @@ const handleSubmit = async (e) => {
         <div className="relative flex items-top justify-center min-h-[700px] bg-[#0A151F] sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto  sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
-                    <div className="grid grid-cols-1 h-[500px] md:grid-cols-2">
+                    <div className="grid grid-cols-1 h-[620px] md:grid-cols-2">
                         <div className="p-6 mr-2 flex flex-col justify-center items-center bg-gradient-to-b  from-sky-600 to-sky-400 rounded-tl-2xl rounded-bl-2xl">
                             <h1 className="text-3xl sm:text-4xl text-white font-extrabold tracking-tight">
                                 Get in touch: 
