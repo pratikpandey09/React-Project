@@ -48,6 +48,7 @@ import Home from "./components/Home/Home"
 import About from "./components/About/About"
 import Header from "./components/Header/Header"
 import Footer from "./components//Footer/Footer"
+import Contact from "./components/Contact/Contact"
 
 export default function App() {
   return (
@@ -56,6 +57,7 @@ export default function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer />
     </BrowserRouter>
