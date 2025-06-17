@@ -16,11 +16,7 @@ const handleSubmit = async (e) => {
   formData.append("name", name);
   formData.append("email", email);
   formData.append("tel", tel);
-
-  console.log("Name:", name);
-  console.log("Email:", email);
-  console.log("Tel:", tel);
-
+  
   try {
     const response = await fetch("http://localhost/reactBackend/submit.php", {
       method: "POST",

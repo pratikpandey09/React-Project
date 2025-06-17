@@ -49,6 +49,7 @@ import About from "./components/About/About"
 import Header from "./components/Header/Header"
 import Footer from "./components//Footer/Footer"
 import Contact from "./components/Contact/Contact"
+import Github from "./components/Github/Github"
 
 export default function App() {
   return (
@@ -58,6 +59,7 @@ export default function App() {
       <Route path='/' element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/Github" element={<Github />} />
     </Routes>
     <Footer />
     </BrowserRouter>
